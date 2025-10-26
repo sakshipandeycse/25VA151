@@ -1,0 +1,134 @@
+<!--Create a Web Page for Course Curriculum: Use of Headings, Paragraphs, Bold, Italic, Underline, and Special Characters, Ordered 
+List, Unordered List, Description 
+List, Nested List, and Mixed Lists.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{        background-color: rgb(40, 37, 67);    }
+    .Header{        background-color:#000000;
+        border:2px solid black;
+        width:100%;
+        padding:20px;
+        margin:0;    }
+    .ABES{        color:#ffffff;
+        text-decoration:underline;
+        font-size:30px;
+        font-family: 'Courier New', Courier, monospace;    }
+    .syllabus{        background-color:#322a21;
+        border:2px solid black;
+        width:100%;
+        padding:10px;
+        margin:0;    }
+    .Syllabus-123{        color:#F02F34;
+        text-decoration:underline;
+        font-size:30px;
+        font-family: 'Courier New', Courier, monospace;    }
+    .Unit-1{        background-color:#6d1515;
+        -webkit-text-fill-color: #ffffff;
+        width:100%;
+        border:2px solid black;
+        padding:10px;
+        margin:0;  }
+    .Div-1{        background-color:#6d1515;
+        -webkit-text-fill-color: #ffffff;
+        width:100%;
+        border:2px solid black;
+        padding:10px;
+        margin:0;    }
+        .expand-btn {                width: 100px;
+                transition: width 0.3s ease;
+                padding: 10px;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                cursor: pointer;        }
+        .expand-btn.expanded {                width: 200px;        }
+.Hidden-text {  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;}
+.Hidden-text-1 {  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;}
+.Hidden-text-2 {  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;}
+.Hidden-text-3 {  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+ border: 1px solid #ccc;}
+.expand-btn:active + .Hidden-text {  display: block;}
+</style>
+<body>
+    <Header class="Header" style="display: flex; align-items: center; gap: 16px;">
+        <img src="https://www.bing.com/th/id/OIP._mVfeIz_M5OghcDn9HD8RgAAAA?w=160&h=211&c=8&rs=1&qlt=90&o=6&cb=12&dpr=1.3&pid=3.1&rm=2" width="80" height="100">
+        <h1 align="Left" class="ABES" style="margin: 0;"> ABES Engineering college</h1>
+    </Header>
+    <div class="Div-1">    
+        <h1 align="center"><u><i><b>Course Curriculum</b></i></u></h1>
+    </div>
+    <div class="syllabus">
+        <button class="expand-btn" id="syllabus-btn" onclick="showSyllabus()">Syllabus</button>   
+       <div class="Hidden-text" id="syllabus-content">
+            <div class="Unit-1" >
+                <h1><u><i><b>Unit 1:  Introduction to Web Technology</b></i></u></h1>
+                <p> Introduction to Web Technology, Full Stack Development, Web Designing, Web Development, Client Server Architecture, Introduction to Text Editors,
+        Installation & Set up of VS Code Editor, Introduction of Git & GitHub, Installation & Configuration of Git Account, Introduction to HTML & HTML        Features, HTML Page Structure, Elements in HTML (Semantic and Non-Semantic), Types of Elements (Inline/Block), Text formatting: headings,        paragraphs, HTML Lists, Unordered Lists, Ordered Lists, Description Lists, Nesting and Mixed Lists, Lists for Navigation Menus, HTML links, Images        and attributes, Comment in HTML, HTML Formatting Elements / Special Character & Symbol, Text related Elements (Quotation and Citation Elements),        Using Multimedia (Image/Video/Audio/YouTube) in HTML, Creating & Using Hyperlinks, Accessibility and Semantic Considerations, Practical</p>
+            </div>
+        </div>
+       <div class="Hidden-text-1" id="syllabus-content-2">
+            <div class="Unit-1" >
+                <h1><u><i><b>Unit 2:   Web Page Development using HTML</b></i></u></h1>
+                <p>  HTML Table: Creating and using Tables, Basic Table Structure, Table Headers and Captions, HTML Table: Rowspan and Colspan, Table Attributes,         Responsive Tables, HTML Table: Nested Tables, Accessibility in Tables, Practical, HTML Form: The <form> Element, Input Elements, Label and         Fieldset, HTML Form: Select and Option Tags, TextArea, Button Element, HTML Form: Form Attributes, Input Validation, Accessibility and Usability,         What is Git and why use it?, Git setup and config (git config), Creating a local repository: git init, Tracking changes: add, commit, status, log, .gitignore 
+        basics, Practical
+            </div>
+        </div>  
+        <div class="Hidden-text-2" id="syllabus-content-3">
+            <div class="Unit-1" >
+                <h1><u><i><b>Unit 3:   Version Control with Git & GitHub and CSS Fundamentals</b></i></u></h1>
+                <p>   Creating a GitHub account, Connecting local repos to GitHub: remote add, push, Cloning and pulling repositories, GitHub repository structure and 
+        README.md, Basic collaboration terms: fork, pull request, branch (intro), Branching: git branch, git checkout, git switch, Merging branches, handling 
+        merge conflicts, GitHub collaboration workflow, Best practices for commits, branches, and messages, Practical with all steps of git, CSS selectors: 
+        element, class, ID, Color, fonts, text alignment, font size, Box model: padding, margin, border, Box model: padding, margin, border, Applying styles: 
+        inline, internal, external
+            </div>
+        </div>
+        <div class="Hidden-text-3" id="syllabus-content-4">
+            <div class="Unit-1" >
+                <h1><u><i><b>Unit 4:   VCSS for Advanced Styling and Responsive Layout</b></i></u></h1>
+                <p>    display: block, inline, inline-block, float and clear, Introduction to Flexbox: justify-content, align-items, flex-direction, Practical in CSS, Units: px, %, em, 
+        rem, vh, vw, Media queries and breakpoints, Media queries and breakpoints, Mobile-first design, Responsive navigation concepts, Practicals, Project 
+        planning and design, Version control in large projects, Deploy using GitHub Pages, Final portfolio polishing, Project using HTML & CSS
+            </div>
+        </div>
+    </div>
+    <script>
+    const ids = ['syllabus-content',
+        'syllabus-content-2',
+        'syllabus-content-3',
+        'syllabus-content-4'  ];
+    function showSyllabus() {
+        ids.forEach(id => {document.getElementById(id).style.display = 'block';
+        });
+        const btn = document.getElementById('syllabus-btn');
+        btn.classList.add('expanded');
+        btn.onclick = hideSyllabus;    }
+    function hideSyllabus() { ids.forEach(id => {document.getElementById(id).style.display = 'none';
+        });
+        const btn = document.getElementById('syllabus-btn');
+        btn.classList.remove('expanded');
+        btn.onclick = showSyllabus;    }
+    </script>
+</body>
+</html>
