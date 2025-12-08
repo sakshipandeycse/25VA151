@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABES Engineering College</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    nav {
+      background-color: #161515;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+    }
+    nav ul li a:hover {
+      background-color: #a52a2a;
+      border-radius: 4px;
+    }
+    .banner {
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: rgba(19, 19, 19, 0.818);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .banner h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .banner p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#admissions">Admissions</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#clubs">Clubs</a></li>
+      <li><a href="#campus">Campus</a></li>
+      <li><a href="#placements">Placements</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#entrepreneurship">Entrepreneurship</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <div>
+      <h1>Welcome to ABES</h1>
+      <p>A community where passionate educators, lifelong learners, and a spirit of innovation come together to shape a better tomorrow.</p>
+    </div>
+  </div>
+
+</body>
+</html>
